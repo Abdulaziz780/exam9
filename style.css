@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+}
+
+.header {
+    display: flex;
+    background-color: #014E56;
+    width: 100%;
+    padding: 73px 163px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.header__right__div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__div__button {
+    width: 153px;
+    height: 48px;
+    top: 73px;
+    left: 1122px;
+    border-radius: 9999px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgba(245, 222, 179, 0);
+}
+
+.section__div3 {
+    width: 100%;
+}
+
+.button__p {
+    font-family: Livvic;
+    font-size: 18px;
+}
+
+.first__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+    background-color: #014E56;
+    height: 500px;
+}
+
+.section__right__p {
+    width: 730px;
+}
+
+.div__right__p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+}
+
+.section__left__h1 {
+    width: 350px;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white
+}
+
+.second__section {
+    background: #004047;
+    width: 100%;
+    text-align: center;
+    padding: 71px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 69.5px;
+}
+
+.section__div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.section__h1 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.third__section {
+    background: #012F34;
+    width: 100%;
+    text-align: center;
+    gap: 80px;
+    padding: 71px 0;
+}
+
+.section__div2 {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last__section {
+    width: 100%;
+    background-color: #F67E7E;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section__div__h1 {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #012F34;
+}
+
+.section__div__button {
+    width: 153px;
+    height: 48px;
+    left: 764px;
+    border-radius: 9999px;
+    border: 3px solid #012F34;
+    background: none;
+}
+
+.button__p__1 {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #002529;
+    width: 100%;
+    height: 196px;
+    padding: 0 171px;
+}
+
+@media (max-width:770px) {
+    .header {
+        padding: 64px 39px;
+    }
+
+    .first__section {
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+    }
+
+    .section__left__h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 38px;
+    }
+
+    .div__right__p {
+        display: flex;
+        text-align: center;
+        font-size: 30px;
+        right: 200px;
+    }
+
+    .section__h1 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #ffff;
+    }
+
+    .section__div {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .third__section {
+        background: #004047;
+    }
+
+    .div__img {
+        width: 103px;
+        height: 17px;
+        gap: 0;
+        padding: 0;
+    }
+
+    .div__img__1 {
+        width: 241px;
+        height: 211px;
+        top: 1065px;
+        left: 249px;
+    }
+
+    .section__div__h1 {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 56px;
+    }
+}
+
